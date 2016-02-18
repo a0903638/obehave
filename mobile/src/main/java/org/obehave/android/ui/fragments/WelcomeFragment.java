@@ -23,18 +23,10 @@ public class WelcomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_start, container, false);
         btnChooseFile = (Button) rootView.findViewById(R.id.btnChooseStudyFile);
-        btnImport = (Button) rootView.findViewById(R.id.btnChooseStudyWLAN);
         btnChooseFile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 EventBusHolder.post(new OpenFileChooserEvent());
-            }
-        });
-
-        btnImport.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                throw new UnsupportedOperationException();
             }
         });
 

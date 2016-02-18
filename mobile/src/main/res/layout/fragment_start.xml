@@ -15,7 +15,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_marginBottom="30dp"/>
 
-    <Button android:id="@+id/btnChooseStudyFile" android:layout_width="match_parent" android:text="@string/btn_choose_study_from_file" android:layout_height="wrap_content" android:layout_marginBottom="8dp"></Button>
-    <Button android:id="@+id/btnChooseStudyWLAN" android:layout_width="match_parent" android:text="@string/btn_choose_study_wlan" android:layout_height="wrap_content" android:layout_marginBottom="8dp"></Button>
+    <Button android:id="@+id/btnChooseStudyFile" android:layout_width="match_parent" android:text="@string/btn_choose_study_from_file" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
 
 </LinearLayout>
